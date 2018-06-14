@@ -6,6 +6,13 @@ This is a Java library for building circuits for preprocessing zk-SNARKs. The li
 
 __Update__: The library now has several cryptographic gadgets used in earlier work ([Hawk](https://eprint.iacr.org/2015/675.pdf) and [C0C0](https://eprint.iacr.org/2015/1093.pdf)). Some of the gadgets like RSA and AES were improved by techniques from xjsnark (to appear). The gadgets can be found in [src/examples/gadgets](https://github.com/akosba/jsnark/tree/master/JsnarkCircuitBuilder/src/examples/gadgets).
 
+
+
+## Build Status
+
+[![Build Status](https://travis-ci.org/hicolour/jsnark/svg?branch=master)](https://travis-ci.org/hicolour/jsnark/)
+
+
 ### Prerequisites
 
 - Libsnark prerequisites
