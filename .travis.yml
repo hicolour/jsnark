@@ -1,0 +1,15 @@
+language: java
+
+addons:
+  hosts:
+    - jsnarks
+  hostname: jsnarks
+
+jdk:
+  - oraclejdk8
+
+notifications:
+  email:
+    recipients:
+    on_success: [change]
+    on_failure: [always]

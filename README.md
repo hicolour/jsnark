@@ -58,9 +58,9 @@ The makefile has been modified to produce the one needed executable for the inte
 ### Running and Testing JsnarkCircuitBuilder
 To compile the JsnarkCircuitBuilder project via command line,  
 
-    $ cd JsnarkCircuitBuilder
-    $ mkdir -p bin
-    $ javac -d bin -cp /usr/share/java/junit4.jar:bcprov-jdk15on-159.jar  $(find ./src/* | grep ".java$")
+```
+mvn clean install
+```
 
 The classpaths of junit4 and bcprov-jdk15on-159.jar may need to be adapted in case the jars are located elsewhere. The above command assumes that  bcprov-jdk15on-159.jar was moved to the JsnarkCircuitBuilder directory.
 

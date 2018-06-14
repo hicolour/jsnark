@@ -1,13 +1,11 @@
 /*******************************************************************************
  * Author: Ahmed Kosba <akosba@cs.umd.edu>
  *******************************************************************************/
-package circuit.tests;
+package circuit;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
-
-import junit.framework.TestCase;
 
 import org.junit.Test;
 
@@ -19,7 +17,10 @@ import circuit.structure.Wire;
 import examples.gadgets.hash.SHA256Gadget;
 import examples.gadgets.math.FieldDivisionGadget;
 
-public class CachingTest extends TestCase {
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+public class CachingTest {
 
 	@Test
 	public void testCaching1() {

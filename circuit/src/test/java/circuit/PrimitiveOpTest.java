@@ -1,12 +1,11 @@
 /*******************************************************************************
  * Author: Ahmed Kosba <akosba@cs.umd.edu>
  *******************************************************************************/
-package circuit.tests;
+package circuit;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
 
-import junit.framework.TestCase;
 
 import org.junit.Test;
 
@@ -18,7 +17,9 @@ import circuit.structure.CircuitGenerator;
 import circuit.structure.Wire;
 import circuit.structure.WireArray;
 
-public class PrimitiveOpTest extends TestCase {
+import static org.junit.Assert.assertEquals;
+
+public class PrimitiveOpTest  {
 
 	@Test
 	public void testAddition() {
