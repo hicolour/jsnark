@@ -10,7 +10,7 @@ __Update__: The library now has several cryptographic gadgets used in earlier wo
 
 ## Build Status
 
-[![Build Status](https://travis-ci.org/hicolour/jsnark/svg?branch=master)](https://travis-ci.org/hicolour/jsnark/)
+[![Build Status](https://travis-ci.org/hicolour/jsnark.svg?branch=master)](https://travis-ci.org/hicolour/jsnark)
 
 
 ### Prerequisites
